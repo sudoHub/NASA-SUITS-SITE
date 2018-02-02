@@ -2,6 +2,8 @@ html, body{
   height: 100%;
   color: white;
   font-family: "Segoe UI";
+
+  min-width: 250px;
 }
 
 h1{
@@ -28,10 +30,13 @@ h1{
   font-size: 1.35em;
   color: white;
   text-shadow: 2px 2px 3px rgba(0,0,0,0.3);
+  width: 102px;
+  text-align: center;
 }
 
 .nav-link{
-  margin: 0 27px;
+  font-weight: bold;
+  margin: 0 17px;
   transition-duration: .26s;
 }
 
@@ -112,7 +117,7 @@ h1{
 .social-link{
   color: #FFF;
   font-size: 30px;
-  margin: 0 30px;
+  margin: 30px;
   margin-bottom: 30px;
   transition-duration: .36s;
 }
@@ -120,6 +125,10 @@ h1{
 .social-link:hover{
   color: #FF5722;
   transition-duration: .36s;
+}
+
+.social-footer{
+  background-color: #18191B
 }
 
 #video-background {

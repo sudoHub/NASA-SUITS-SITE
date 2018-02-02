@@ -8,7 +8,7 @@ To-do:
 - [x] Home Page
 - [ ] About Page
 - [ ] Mission Page
-- [ ] Members Page
-	- Need photos of members
+- [x] Members Page
+	- [ ] Need photos of members
 - [ ] Support Page
 	- Need logos/links of sponsors/supporters

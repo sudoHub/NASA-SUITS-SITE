@@ -1,0 +1,220 @@
+html, body{
+  height: 100%;
+  color: white;
+  font-family: "Segoe UI";
+}
+
+h1{
+  margin: 0;
+}
+
+@font-face {
+  font-family: 'Hype';
+  src: url('../fonts/HYPE.ttf');
+}
+
+@font-face {
+  font-family: 'Segoe UI';
+  src: url('../fonts/segoeuil.ttf');
+}
+
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+  }
+
+.nav-item{
+  font-size: 1.35em;
+  color: white;
+  text-shadow: 2px 2px 3px rgba(0,0,0,0.3);
+}
+
+.nav-link{
+  margin: 0 27px;
+  transition-duration: .26s;
+}
+
+.nav-link:hover{
+  color: #FF5722;
+  transition-duration: .26s;
+}
+
+.active{
+  color: #FF5722;
+  border-bottom: 2px solid #FF5722;
+  border-radius: 2.4px;
+}
+
+.navbar{
+  background: rgba(0,0,0,0.22);
+  background: -moz-linear-gradient(top, rgba(0,0,0,0.22) 0%, rgba(255,255,255,0) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,0.22)), color-stop(100%, rgba(255,255,255,0)));
+  background: -webkit-linear-gradient(top, rgba(0,0,0,0.22) 0%, rgba(255,255,255,0) 100%);
+  background: -o-linear-gradient(top, rgba(0,0,0,0.22) 0%, rgba(255,255,255,0) 100%);
+  background: -ms-linear-gradient(top, rgba(0,0,0,0.22) 0%, rgba(255,255,255,0) 100%);
+  background: linear-gradient(to bottom, rgba(0,0,0,0.22) 0%, rgba(255,255,255,0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#ffffff', GradientType=0 );
+  transition: .5s;
+}
+
+.navbar-brand{
+  font-family: "Hype";
+  visibility: hidden;
+}
+
+.navbar-toggler{
+  outline: none !important;
+}
+
+#page-content{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  height: 100%;
+  width: 100%;
+  display: inline-flex;
+  text-align: center;
+}
+
+.jumbotron{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  width: 100vw;
+  text-shadow: 2px 2px 3px rgba(0,0,0,0.3);
+}
+
+#AETHER{
+  font-family: "Hype";
+  font-size: 9vw;
+  transition-duration: .36s;
+}
+
+#learn-more{
+  background-color: rgba(0,0,0,.66);
+  border: none;
+  border-radius: 50px;
+  transition-duration: .36s;
+}
+
+#learn-more:hover{
+  box-shadow: 0px 0px 20px rgba(255, 87, 34, 0.79);
+  transition-duration: .36s;
+}
+
+.btn-icon{
+  padding-left: 8px;
+}
+
+.social-link{
+  color: #FFF;
+  font-size: 30px;
+  margin: 0 30px;
+  margin-bottom: 30px;
+  transition-duration: .36s;
+}
+
+.social-link:hover{
+  color: #FF5722;
+  transition-duration: .36s;
+}
+
+#video-background {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  pointer-events: none;
+}
+
+@media only screen and (max-width: 767.98px){
+  .navbar-brand{
+    visibility: visible;
+  }
+
+  .navbar{
+    background: none;
+    text-align: center;
+    transition: 1.2s;
+    background-color: rgba(0,0,0,.66);
+  }
+
+  .nav-item{
+    font-size: 1.1em;
+  }
+
+  .active{
+    border: none;
+  }
+
+  .team-title{
+    width: 100vw;
+  }
+
+  #page-content{
+    top: auto;
+    left: auto;
+    z-index: 0;
+  }
+
+  #AETHER{
+    font-family: "Hype";
+    font-size: 15vw;
+  }
+
+  .collapse.show {
+    height: 210px;
+  }
+}
+
+/*Menu Icon CSS*/
+.wrapper-menu {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: transform 150ms ease-out;
+}
+
+.wrapper-menu.open {
+  transform: rotate(-45deg);
+}
+
+.line-menu {
+  background-color: #fff;
+  border-radius: 5px;
+  width: 100%;
+  height: 3px;
+}
+
+.line-menu.half {
+  width: 50%;
+}
+
+.line-menu.start {
+  transition: transform 150ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
+  transform-origin: right;
+}
+
+.open .line-menu.start {
+  transform: rotate(-90deg) translateX(3px);
+}
+
+.line-menu.end {
+  align-self: flex-end;
+  transition: transform 150ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
+  transform-origin: left;
+}
+
+.open .line-menu.end {
+  transform: rotate(-90deg) translateX(-3px);
+}

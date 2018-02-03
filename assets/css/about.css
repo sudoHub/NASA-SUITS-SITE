@@ -1,0 +1,342 @@
+h2{
+  font-family: "Hype";
+}
+
+p{
+  margin: 0;
+  font-size: 1.1em;
+}
+
+#main{
+  height: 77vh;
+  background-image: url(css-bg/astronaut4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+#main-footer{
+  text-align: center;
+  height: 23vh;
+  min-height: 150px;
+  background-color: #000;
+}
+
+#nasa{
+  background-image: url(css-bg/spacesuit.jpg);
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+}
+
+#nasa-row{
+  padding: 15% 20px;
+  padding-bottom: 7%;
+}
+
+#nasa-logo{
+}
+
+img[alt="nasa-logo"]{
+  height: 300px;
+}
+
+#nasa-text{
+  top: 50%;
+}
+
+#center-button{
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+    padding: 15px 0;
+}
+
+#fade{
+  background: rgba(0,0,0,1);
+  background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 9%, rgba(0,0,0,0) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,1)), color-stop(0%, rgba(0,0,0,1)), color-stop(9%, rgba(0,0,0,1)), color-stop(100%, rgba(0,0,0,0)));
+  background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 9%, rgba(0,0,0,0) 100%);
+  background: -o-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 9%, rgba(0,0,0,0) 100%);
+  background: -ms-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 9%, rgba(0,0,0,0) 100%);
+  background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 9%, rgba(0,0,0,0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=0 )
+  margin: 0;
+  height: 100%;
+  bottom: 0px;
+}
+
+#hololens{
+  text-align: center;
+  background-color: #f2f2f2;
+  padding: 100px 0;
+  color: #1F1F1F;
+
+  -webkit-box-shadow: inset 0px 2px 136px -29px rgba(0,0,0,1);
+  -moz-box-shadow: inset 0px 2px 136px -29px rgba(0,0,0,1);
+  box-shadow: inset 0px 2px 136px -29px rgba(0,0,0,1);
+}
+
+img[alt="hololens"]{
+  width: 60%;
+  padding: 60px;
+}
+
+#hololens-text{
+  font-size: 1.3em;
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+#team{
+  margin: 0;
+  background-image: url(css-bg/riverside.jpg);
+  background-position: bottom;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 60px 0;
+}
+
+#team-info{
+  padding-left: 0;
+}
+
+#team-logo{
+  text-align: center;
+}
+
+img[alt="team-logo"]{
+  max-height: 400px;
+  padding: 30px 0;
+}
+
+#team-text{
+  top: 50%;
+  position: absolute;
+  padding: 20px 15%;
+  padding-right: 30%;
+  transform: translate(0, -50%);
+  background-color: rgba(0,0,0,.66);
+
+  -webkit-box-shadow: -15px 13px 63px -26px rgba(0,0,0,1);
+  -moz-box-shadow: -15px 13px 63px -26px rgba(0,0,0,1);
+  box-shadow: -15px 13px 63px -26px rgba(0,0,0,1);
+}
+
+#rcc{
+  margin: 0;
+}
+
+#rcc-info{
+  background-color: #101010;
+  padding: 0 15px;
+
+  -webkit-box-shadow: inset -4px 9px 78px 0px rgba(0,0,0,0.23);
+  -moz-box-shadow: inset -4px 9px 78px 0px rgba(0,0,0,0.23);
+  box-shadow: inset -4px 9px 78px 0px rgba(0,0,0,0.23);
+}
+
+#rcc-text{
+  top: 50%;
+  position: absolute;
+  padding: 20px 5%;
+  transform: translate(0, -50%);
+}
+
+#rcc-image-A{
+  padding: 0;
+}
+
+#rcc-image-B{
+  padding: 0;
+  display: none;
+}
+
+/*Scroll Button*/
+#section05{
+  padding-top: 50px;
+}
+#section05 a {
+  padding-top: 70px;
+  padding: 5px;
+}
+#section05 a span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 5px solid #fff;
+  border-bottom: 5px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-animation: sdb05 1.5s infinite;
+  animation: sdb05 1.5s infinite;
+  box-sizing: border-box;
+}
+@-webkit-keyframes sdb05 {
+  0% {
+    -webkit-transform: rotate(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: rotate(-45deg) translate(-20px, 20px);
+    opacity: 0;
+  }
+}
+@keyframes sdb05 {
+  0% {
+    transform: rotate(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(-45deg) translate(-20px, 20px);
+    opacity: 0;
+  }
+}
+
+.demo a {
+  margin-top: 20px;
+  top: 50%;
+  height: 50px;
+  width: 50px;
+  left: 50%;
+  z-index: 2;
+  display: inline-block;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  color: #fff;
+  font : normal 400 20px/1 'Josefin Sans', sans-serif;
+  letter-spacing: .1em;
+  text-decoration: none;
+  transition: opacity .3s;
+}
+.demo a:hover {
+  opacity: .5;
+}
+
+@media (max-width: 991.98px){
+  #nasa{
+    text-align: center;
+  }
+
+  img[alt="nasa-logo"]{
+    height: 220px;
+    padding: 20px 0;
+    padding-left: 12px
+  }
+}
+
+@media only screen and (max-width: 767.98px){
+  #main-footer h2{
+    font-size: 1.5em;
+  }
+
+  #section05{
+    padding-top: 10px;
+  }
+
+  #nasa{
+      background-image: url(css-bg/spacesuit.jpg);
+      background-size: cover;
+      background-position: top;
+      background-attachment: inherit;
+  }
+
+  #nasa-logo{
+    text-align: center;
+  }
+
+  img[alt="nasa-logo"]{
+    height: 220px;
+    padding: 20px 0;
+    padding-left: 12px
+  }
+
+  #nasa-text{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 15px
+  }
+
+  #center-button{
+      margin-top: 20px;
+  }
+
+  #hololens{
+    padding: 50px 0;
+  }
+
+  img[alt="hololens"]{
+    width: 100%;
+    padding: 30px;
+  }
+
+  #hololens-text{
+    font-size: 1.1em;
+  }
+
+  #team{
+    background: none;
+    padding: 0;
+  }
+
+  #team-logo{
+    background-image: url(css-bg/riverside.jpg);
+    background-position: bottom;
+    background-size: cover;
+  }
+
+  #team-info{
+    background-color: #101010;
+    padding: 0;
+  }
+
+  #team-text{
+    top: 0;
+    position: relative;
+    transform: translate(0, 0);
+    text-align: center;
+    padding: 35px 15px;
+    margin: 0;
+    background: none;
+    -webkit-box-shadow: inset -4px 9px 78px 0px rgba(0,0,0,0.23);
+    -moz-box-shadow: inset -4px 9px 78px 0px rgba(0,0,0,0.23);
+    box-shadow: inset -4px 9px 78px 0px rgba(0,0,0,0.23);
+  }
+
+  #rcc-text{
+    top: 0;
+    position: relative;
+    transform: translate(0, 0);
+    text-align: center;
+    padding: 35px 0;
+  }
+
+  #rcc-image-A{
+    display: none;
+  }
+
+  #rcc-image-B{
+    padding: 0;
+    display: block;
+  }
+
+  img[alt="team-logo"]{
+    max-height: 380px;
+  }
+
+}
+
+@media only screen and (max-width: 575.98px){
+  img[alt="team-logo"]{
+    max-height: 300px;
+  }
+}

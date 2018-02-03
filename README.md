@@ -6,7 +6,7 @@ Some changes may occur in styling, layout, and content.
 
 To-do:
 - [x] Home Page
-- [ ] About Page
+- [x] About Page
 - [ ] Mission Page
 - [x] Members Page
 	- [ ] Need photos of members

@@ -128,7 +128,10 @@ h1{
 }
 
 .social-footer{
-  background-color: #18191B
+  background-color: #18191B;
+  -webkit-box-shadow: 0px 6px 79px -4px rgba(0,0,0,1);
+  -moz-box-shadow: 0px 6px 79px -4px rgba(0,0,0,1);
+  box-shadow: 0px 6px 79px -4px rgba(0,0,0,1);
 }
 
 #video-background {

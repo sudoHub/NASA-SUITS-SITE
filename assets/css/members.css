@@ -4,9 +4,10 @@ body{
 }
 
 .logo-head{
-  background-image: url(css-bg/stars.jpg);
-  background-size: contain;
+  background-image: url(css-bg/nebula.jpg);
+  background-size: cover;
   background-attachment: fixed;
+  background-position: top;
   width: 100%;
   margin-bottom: 0px;
   text-align: center;
@@ -17,14 +18,18 @@ img[alt="logo"]{
   max-height: 350px;
   margin-bottom: 0;
   transition: .36s;
+  filter: drop-shadow(0px 0px 10px rgba(0,0,0,0.7));
 }
 
 #fade{
-  color: #FFFFFF;
-  background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 13%, rgba(0,0,0,0.96) 82%, rgba(0,0,0,1) 85%, rgba(0,0,0,1) 95%);
-  background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 13%,rgba(0,0,0,0.96) 82%,rgba(0,0,0,1) 85%,rgba(0,0,0,1) 95%);
-  background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 13%,rgba(0,0,0,0.96) 82%,rgba(0,0,0,1) 85%,rgba(0,0,0,1) 95%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=0 );
+  background: rgba(248,80,50,0);
+  background: -moz-linear-gradient(top, rgba(248,80,50,0) 0%, rgba(0,0,0,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(248,80,50,0)), color-stop(100%, rgba(0,0,0,1)));
+  background: -webkit-linear-gradient(top, rgba(248,80,50,0) 0%, rgba(0,0,0,1) 100%);
+  background: -o-linear-gradient(top, rgba(248,80,50,0) 0%, rgba(0,0,0,1) 100%);
+  background: -ms-linear-gradient(top, rgba(248,80,50,0) 0%, rgba(0,0,0,1) 100%);
+  background: linear-gradient(to bottom, rgba(248,80,50,0) 0%, rgba(0,0,0,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', endColorstr='#000000', GradientType=0 );
   margin: 0;
   height: auto;
   bottom: 0px;
@@ -50,14 +55,17 @@ img[alt="logo"]{
 
 .card{
   text-align: center;
-  border-radius: 15px;
+  border-radius: 9px;
   padding-right: 0;
   background-color: rgba(0,0,0,.50);
   color: white;
   height: 329px;
   width: 14rem;
   border: none;
-  margin: 10px auto;
+  margin: 20px auto;
+  -webkit-box-shadow: 25px 21px 95px -24px rgba(0,0,0,0.56);
+  -moz-box-shadow: 25px 21px 95px -24px rgba(0,0,0,0.56);
+  box-shadow: 25px 21px 95px -24px rgba(0,0,0,0.56);
 }
 
 .card-title{

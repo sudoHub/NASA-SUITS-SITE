@@ -9,7 +9,7 @@ p{
 
 #main{
   height: 77vh;
-  background-image: url(css-bg/astronaut4.jpg);
+  background-image: url(css-bg/astronaut6.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -39,10 +39,14 @@ p{
 
 img[alt="nasa-logo"]{
   height: 300px;
+  filter: drop-shadow(0px 0px 10px rgba(0,0,0,0.69));
+  transition: .36s;
 }
 
 #nasa-text{
+  transition: .36s;
   top: 50%;
+  text-shadow: 2px 1px 7px rgba(0, 0, 0, 0.33);
 }
 
 #center-button{
@@ -70,16 +74,17 @@ img[alt="nasa-logo"]{
   text-align: center;
   background-color: #f2f2f2;
   padding: 100px 0;
-  color: #1F1F1F;
+  color: #393939;
 
-  -webkit-box-shadow: inset 0px 2px 136px -29px rgba(0,0,0,1);
-  -moz-box-shadow: inset 0px 2px 136px -29px rgba(0,0,0,1);
-  box-shadow: inset 0px 2px 136px -29px rgba(0,0,0,1);
+  -webkit-box-shadow: inset 4px 1px 88px -6px rgba(0,0,0,1);
+  -moz-box-shadow: inset 4px 1px 88px -6px rgba(0,0,0,1);
+  box-shadow: inset 4px 1px 88px -6px rgba(0,0,0,1);
 }
 
 img[alt="hololens"]{
   width: 60%;
   padding: 60px;
+    filter: drop-shadow(0px 10px 20px rgba(0,0,0,0.39));
 }
 
 #hololens-text{
@@ -108,6 +113,7 @@ img[alt="hololens"]{
 img[alt="team-logo"]{
   max-height: 400px;
   padding: 30px 0;
+  filter: drop-shadow(0px 0px 10px rgba(0,0,0,0.9));
 }
 
 #team-text{
@@ -117,10 +123,9 @@ img[alt="team-logo"]{
   padding-right: 30%;
   transform: translate(0, -50%);
   background-color: rgba(0,0,0,.66);
-
-  -webkit-box-shadow: -15px 13px 63px -26px rgba(0,0,0,1);
-  -moz-box-shadow: -15px 13px 63px -26px rgba(0,0,0,1);
-  box-shadow: -15px 13px 63px -26px rgba(0,0,0,1);
+  -webkit-box-shadow: -9px 21px 66px -4px rgba(0,0,0,0.7);
+  -moz-box-shadow: -9px 21px 66px -4px rgba(0,0,0,0.7);
+  box-shadow: -9px 21px 66px -4px rgba(0,0,0,0.7);
 }
 
 #rcc{
@@ -145,6 +150,10 @@ img[alt="team-logo"]{
 
 #rcc-image-A{
   padding: 0;
+}
+
+img[alt="rcc"]{
+  filter: drop-shadow(0px 0px 10px rgba(0,0,0,0.69));
 }
 
 #rcc-image-B{
@@ -230,7 +239,8 @@ img[alt="team-logo"]{
   img[alt="nasa-logo"]{
     height: 220px;
     padding: 20px 0;
-    padding-left: 12px
+    padding-left: 12px;
+    transition: .36s;
   }
 }
 
@@ -257,13 +267,16 @@ img[alt="team-logo"]{
   img[alt="nasa-logo"]{
     height: 220px;
     padding: 20px 0;
-    padding-left: 12px
+    padding-left: 12px;
+    transition: .36s;
   }
 
   #nasa-text{
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.9);
-    padding: 15px
+    background-color: rgba(0, 0, 0, 0.65);
+    padding: 15px;
+    border-radius: 10px;
+    transition: .36s;
   }
 
   #center-button{

@@ -26,10 +26,14 @@ h1{
     transform: translatex(-50%);
   }
 
+.home-link{
+  color: #FFF;
+}
+
 .nav-item{
   font-size: 1.35em;
   color: white;
-  text-shadow: 2px 2px 3px rgba(0,0,0,0.3);
+  text-shadow: 2px 3px 8px rgba(0,0,0,0.6);
   width: 102px;
   text-align: center;
 }
@@ -89,7 +93,7 @@ h1{
   transform: translateY(-50%);
   background-color: transparent;
   width: 100vw;
-  text-shadow: 2px 2px 3px rgba(0,0,0,0.3);
+  text-shadow: 5px 10px 30px rgba(0,0,0,0.6);
 }
 
 #AETHER{
@@ -151,15 +155,33 @@ h1{
     visibility: visible;
   }
 
+  .home-link{
+    transition-duration: .26s;
+  }
+
+  .home-link:hover{
+    color: #FF5722;
+    text-decoration: none;
+    transition-duration: .26s;
+  }
+
+  .navbar-nav a[href="index.html"]{
+    display: none;
+  }
+
   .navbar{
     background: none;
     text-align: center;
     transition: 1.2s;
     background-color: rgba(0,0,0,.66);
+    -webkit-box-shadow: -2px 5px 66px 11px rgba(0,0,0,0.7);
+    -moz-box-shadow: -2px 5px 66px 11px rgba(0,0,0,0.7);
+    box-shadow: -2px 5px 66px 11px rgba(0,0,0,0.7);
   }
 
   .nav-item{
     font-size: 1.1em;
+    padding: 10px 0;
   }
 
   .active{
@@ -182,7 +204,8 @@ h1{
   }
 
   .collapse.show {
-    height: 210px;
+    height: 190px;
+
   }
 }
 

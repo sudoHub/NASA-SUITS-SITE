@@ -8,17 +8,24 @@ p{
 }
 
 #main{
-  height: 77vh;
-  background-image: url(css-bg/astronaut6.jpg);
+  background-image: url(css-bg/ISS.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
+}
+
+#blank-space{
+  height: 77vh;
 }
 
 #main-footer{
   text-align: center;
   height: 23vh;
   min-height: 150px;
+}
+
+#divider{
+  height: 25vh;
   background-color: #000;
 }
 
@@ -100,6 +107,13 @@ img[alt="hololens"]{
   background-attachment: fixed;
   background-size: cover;
   padding: 60px 0;
+ animation: panning 13s linear alternate infinite;
+}
+
+@keyframes panning {
+  0% { background-position: 0 0; }
+    100% { background-position: 100% 0; }
+
 }
 
 #team-info{
@@ -299,6 +313,7 @@ img[alt="rcc"]{
   #team{
     background: none;
     padding: 0;
+    transition: none;
   }
 
   #team-logo{

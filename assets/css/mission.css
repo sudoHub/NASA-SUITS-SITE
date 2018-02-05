@@ -18,6 +18,7 @@ h2{
 #process{
   background-color: #F2F2F2;
   width: 100%;
+  padding: 40px 0;
   -webkit-box-shadow: inset 0px -93px 62px -97px rgba(89,89,89,1);
   -moz-box-shadow: inset 0px -93px 62px -97px rgba(89,89,89,1);
   box-shadow: inset 0px -93px 62px -97px rgba(89,89,89,1);
@@ -40,15 +41,16 @@ h2{
   align-items: center;
   text-align: center;
   align-content: center;
-  padding: 2%;
+  padding: 20px;
   margin: 20px 2%;
   font-size: 1.2em;
   border-radius: 7px;
   max-width: 375px;
 
   -webkit-box-shadow: 24px 24px 62px -25px rgba(0,0,0,0.77);
--moz-box-shadow: 24px 24px 62px -25px rgba(0,0,0,0.77);
-box-shadow: 24px 24px 62px -25px rgba(0,0,0,0.77);
+  -moz-box-shadow: 24px 24px 62px -25px rgba(0,0,0,0.77);
+  box-shadow: 24px 24px 62px -25px rgba(0,0,0,0.77);
+  transition: .36s;
 }
 
 #brainstorm{
@@ -57,8 +59,17 @@ box-shadow: 24px 24px 62px -25px rgba(0,0,0,0.77);
   background: -webkit-linear-gradient(45deg, rgba(230,92,0,1) 0%,rgba(249,212,35,1) 100%);
   background: linear-gradient(45deg, rgba(230,92,0,1) 0%,rgba(249,212,35,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e65c00', endColorstr='#f9d423',GradientType=1 );
+  transition: .36s;
+}
 
+#brainstorm:hover{
+  -webkit-transform: scale(1.04);
+  transform: scale(1.04);
+  transition: .26s ease;
 
+  -webkit-box-shadow: 24px 24px 80px -25px rgba(0,0,0,0.97);
+  -moz-box-shadow: 24px 24px 80px -25px rgba(0,0,0,0.97);
+  box-shadow: 24px 24px 80px -25px rgba(0,0,0,0.97);
 }
 
 #develop{
@@ -69,12 +80,32 @@ background: linear-gradient(45deg, rgba(56,239,125,1) 0%,rgba(17,153,142,1) 100%
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#38ef7d', endColorstr='#11998e',GradientType=1 );
 }
 
+#develop:hover{
+  -webkit-transform: scale(1.04);
+  transform: scale(1.04);
+  transition: .26s ease;
+
+  -webkit-box-shadow: 24px 24px 80px -25px rgba(0,0,0,0.97);
+  -moz-box-shadow: 24px 24px 80px -25px rgba(0,0,0,0.97);
+  box-shadow: 24px 24px 80px -25px rgba(0,0,0,0.97);
+}
+
 #test{
   background: rgb(5,117,230);
 background: -moz-linear-gradient(-45deg, rgba(5,117,230,1) 0%, rgba(2,27,121,1) 100%);
 background: -webkit-linear-gradient(-45deg, rgba(5,117,230,1) 0%,rgba(2,27,121,1) 100%);
 background: linear-gradient(135deg, rgba(5,117,230,1) 0%,rgba(2,27,121,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0575e6', endColorstr='#021b79',GradientType=1 );
+}
+
+#test:hover{
+  -webkit-transform: scale(1.04);
+  transform: scale(1.04);
+  transition: .26s ease;
+
+  -webkit-box-shadow: 24px 24px 80px -25px rgba(0,0,0,0.97);
+  -moz-box-shadow: 24px 24px 80px -25px rgba(0,0,0,0.97);
+  box-shadow: 24px 24px 80px -25px rgba(0,0,0,0.97);
 }
 
 .process h3{
@@ -191,6 +222,13 @@ img[alt="research"]{
 
 img[alt="riverside"]{
   width: 100%;
+    transition: .36s;
+}
+
+img[alt="riverside"]:hover{
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: .36s;
 }
 
 @media (max-width: 991.98px){

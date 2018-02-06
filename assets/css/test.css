@@ -1,0 +1,31 @@
+.logo-thumb{
+
+  max-height: 150px;
+  width: auto;
+}
+
+.item{
+  text-align: center;
+  margin: 0 20px;
+}
+
+.owl-carousel.owl-drag .owl-item img{
+  width: auto;
+}
+
+@media only screen and (max-width: 575.98px){
+    .logo-thumb{
+
+    }
+
+    .owl-carousel.owl-drag .owl-item{
+
+    }
+}
+
+@media only screen and (max-width: 767.98px){
+  .logo-thumb{
+      max-height: 100px;
+      margin: 10;
+  }
+}

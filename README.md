@@ -10,5 +10,5 @@ To-do:
 - [x] Mission Page
 - [x] Members Page
 	- [ ] Photos of members
-- [ ] Support Page
-	- [ ] Logos/links of sponsors/supporters
+- [ ] Contact Page
+	- [x] Logos/links of sponsors/supporters

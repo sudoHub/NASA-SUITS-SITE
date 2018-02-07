@@ -8,11 +8,14 @@ h2{
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  padding: 200px 0;
+  padding: 100px 0;
+  -webkit-box-shadow: inset -4px -58px 75px -76px rgba(0,0,0,1);
+-moz-box-shadow: inset -4px -58px 75px -76px rgba(0,0,0,1);
+box-shadow: inset -4px -58px 75px -76px rgba(0,0,0,1);
 }
 
 #contact h2{
-  margin-bottom: 20px;
+  margin: 50px 0;
 }
 
 #email{
@@ -21,9 +24,74 @@ h2{
   margin: 0;
 }
 
-.shadow{
-    box-shadow: 2px 2px 40px rgba(0,0,0,.9);
-    background-color: #F2F2F2;
+#email i{
+  padding-right: 15px;
+}
+
+#supporters{
+  text-align: center;
+  color: black;
+  padding: 100px 0px;
+  background-color: #F1F1F1;
+  -webkit-box-shadow: inset -4px -58px 75px -76px rgba(0,0,0,1);
+  -moz-box-shadow: inset -4px -58px 75px -76px rgba(0,0,0,1);
+  box-shadow: inset -4px -58px 75px -76px rgba(0,0,0,1);
+}
+
+#supporters h2{
+  color: #393939;
+  padding-bottom: 50px;
+}
+
+.owl-stage-outer{
+  background-color: #FCFEFF;
+  padding: 50px 0;
+  border-radius: 5px;
+  -webkit-box-shadow: inset -63px -16px 121px -97px rgba(0,0,0,1),inset 63px -16px 121px -97px rgba(0,0,0,1),10px 10px 46px -14px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset -63px -16px 121px -97px rgba(0,0,0,1),inset 63px -16px 121px -97px rgba(0,0,0,1),10px 10px 46px -14px rgba(0,0,0,0.75);
+  box-shadow: inset -63px -16px 121px -97px rgba(0,0,0,1),inset 63px -16px 121px -97px rgba(0,0,0,1),10px 10px 46px -14px rgba(0,0,0,0.75);;
+}
+
+.owl-item.active.center img{
+  filter: grayscale(0%) saturate(200%) !important;
+  transform: scale(1.3);
+    transition: 3.3s;
+}
+
+.owl-item.active img{
+  filter: grayscale(0%) !important;
+  transform: scale(1);
+  transition: 3.3s;
+}
+
+.logo-thumb{
+  height: 100px;
+  width: auto;
+  border: none;
+  filter: grayscale(10%);
+  transform: scale(.8);
+  opacity: 0;
+  transition: 3s;
+}
+
+.item{
+  vertical-align: middle;
+  text-align: center;
+  margin: 0 20px;
+}
+
+.owl-carousel.owl-drag .owl-item img{
+  width: auto;
+}
+.owl-stage .active{
+  border: none !important;
+}
+
+#social-media{
+  background-color: #FCFEFF;
+  -webkit-box-shadow: inset -4px -58px 75px -76px rgba(0,0,0,1);
+  -moz-box-shadow: inset -4px -58px 75px -76px rgba(0,0,0,1);
+  box-shadow: inset -4px -58px 75px -76px rgba(0,0,0,1);
 }
 
 #social{
@@ -55,7 +123,9 @@ h2{
 
 .social-media:hover{
   transition: .26s;
-  filter: saturate(120%) drop-shadow(5px 5px 7.5px rgba(0,0,0,0.39));
+  filter: saturate(120%) drop-shadow(5px 5px 7.5px rgba(0,0,0,0.27));
+  margin-top: 25px;
+  margin-right: 25px;
 }
 
 
@@ -201,7 +271,6 @@ img[alt="Embed Social Media Feeds on your website with Juicer!"]{
   color: #F68E09 !important;
 }
 
-
 @media only screen and (max-width: 767.98px){
   #social{
     padding: 40px 10px;
@@ -219,5 +288,23 @@ img[alt="Embed Social Media Feeds on your website with Juicer!"]{
   .crt-post-v2 .crt-post-c{
     margin: 10px;
     margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width:575.98px){
+  .container{
+    padding: 0;
+  }
+
+  .owl-item.active.center img{
+    filter: grayscale(0%) saturate(200%) !important;
+    transform: scale(1.1);
+      transition: 3.3s;
+  }
+
+  .owl-item.active img{
+    filter: grayscale(0%) !important;
+    transform: scale(.8);
+    transition: 3.3s;
   }
 }

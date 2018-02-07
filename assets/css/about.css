@@ -83,9 +83,9 @@ img[alt="nasa-logo"]{
   padding: 100px 0;
   color: #393939;
 
-  -webkit-box-shadow: inset 4px 1px 88px -6px rgba(0,0,0,1);
-  -moz-box-shadow: inset 4px 1px 88px -6px rgba(0,0,0,1);
-  box-shadow: inset 4px 1px 88px -6px rgba(0,0,0,1);
+  -webkit-box-shadow: inset 4px 1px 88px -6px rgba(0,0,0,.3);
+  -moz-box-shadow: inset 4px 1px 88px -6px rgba(0,0,0,.3);
+  box-shadow: inset 4px 1px 88px -6px rgba(0,0,0,.3);
 }
 
 img[alt="hololens"]{

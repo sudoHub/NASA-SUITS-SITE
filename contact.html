@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="assets/css/fa-brands.css">
     <link rel="stylesheet" href="assets/css/master.css">
     <link rel="stylesheet" href="assets/css/contact.css">
+    <link rel="stylesheet" href="assets/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/owlcarousel/assets/owl.theme.default.min.css">
   </head>
   <body>
     <nav class="navbar fixed-top navbar-expand-md">
@@ -36,23 +38,36 @@
 
     <div id="contact">
       <h2>Feel free to contact us</h2>
-      <p id="email">rcchololens@rcc.edu</p>
+      <p id="email" onclick="copyToClipboard('#email')"><i class="fas fa-envelope"></i>rcchololens@rcc.edu</p>
+      <h2>Become a Supporter</h2>
     </div>
 
-    <div class="supporters">
-      <div class="row">
-        <div class="col">
-
+    <div id="supporters">
+      <h2>Our Supporters and Sponsors</h2>
+      <div class="container contain-carousel">
+        <div class="owl-carousel owl-theme">
+            <div class="item"><a href=""><img class="logo-thumb" src="assets/images/supporters/rcc.png" alt=""></a></div>
+            <div class="item"><a href=""><img class="logo-thumb" src="assets/images/supporters/norco.png" alt=""></a></div>
+            <div class="item"><a href=""><img class="logo-thumb" src="assets/images/supporters/ucr.png" alt=""></a></div>
+            <div class="item"><a href=""><img class="logo-thumb" src="assets/images/supporters/4h.png" alt=""></a></div>
+            <div class="item"><a href=""><img class="logo-thumb" src="assets/images/supporters/cor.png" alt=""></a></div>
+            <div class="item"><a href=""><img class="logo-thumb" src="assets/images/supporters/girlscouts.png" alt=""></a></div>
+            <div class="item"><a href=""><img class="logo-thumb" src="assets/images/supporters/dwm.png" alt=""></a></div>
+            <div class="item"><a href=""><img class="logo-thumb" src="assets/images/supporters/rusd.png" alt=""></a></div>
+            <div class="item"><a href=""><img class="logo-thumb" src="assets/images/supporters/sb.png" alt=""></a></div>
+            <div class="item"><a href=""><img class="logo-thumb" src="assets/images/supporters/cpp.png" alt=""></a></div>
+            <div class="item"><a href=""><img class="logo-thumb" src="assets/images/supporters/thegrove.png" alt=""></a></div>
+            <div class="item"><a href=""><img class="logo-thumb" src="assets/images/supporters/cde.png" alt=""></a></div>
         </div>
       </div>
     </div>
 
-    <div class="shadow">
+    <div id="social-media">
       <div id="social" class="container">
         <h2>Follow Us on Social Media</h2>
         <div class="row align-items-center">
-          <div class="col" id="instagram"><a href="#"><img class="social-media" src="assets/images/instagram.png" alt="instagram"></a></div>
-          <div class="col" id="twitter"><a href="#"><img class="social-media" src="assets/images/twitter.png" alt="twitter"></a></div>
+          <div class="col" id="instagram"><a href="https://www.instagram.com/rccsuits/"><img class="social-media" src="assets/images/instagram.png" alt="instagram"></a></div>
+          <div class="col" id="twitter"><a href="https://twitter.com/rcc_suits"><img class="social-media" src="assets/images/twitter.png" alt="twitter"></a></div>
           <div class="col" id="facebook"><a href="#"><img class="social-media" src="assets/images/facebook.png" alt="facebook"></a></div>
         </div>
       </div>
@@ -62,18 +77,13 @@
       <h2>Social Feed</h2>
     </div>
 
-    <script type="text/javascript">
-    // curator-feed
-    (function(){
-        var i, e, d = document, s = "script";i = d.createElement("script");i.async = 1;
-        i.src = "https://cdn.curator.io/published/89f09c1a-2a4c-47b2-b1cd-d2d1ae55.js";
-        e = d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
-    })();
-    </script>
-
     <script src="assets/js/jquery-3.3.1.min.js"></script>
     <script src="assets/js/popper.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/menu-icon.js"></script>
+    <script src="assets/owlcarousel/owl.carousel.min.js"></script>
+    <script src="assets/js/owl.js"></script>
+    <script src="assets/js/curator.js"></script>
+    <script src="assets/js/copy-email.js"></script>
   </body>
 </html>

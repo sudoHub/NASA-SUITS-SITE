@@ -1,3 +1,7 @@
+body{
+  background-color: #000;
+}
+
 h2{
   font-family: "Hype";
 }
@@ -259,12 +263,23 @@ img[alt="rcc"]{
 }
 
 @media only screen and (max-width: 767.98px){
+
+  #blank-space{
+    height: 73vh;
+  }
+
+  #main-footer{
+    text-align: center;
+    height: 27vh;
+    min-height: 150px;
+  }
+
   #main-footer h2{
     font-size: 1.5em;
   }
 
   #section05{
-    padding-top: 10px;
+    padding-top: 0px;
   }
 
   #nasa{

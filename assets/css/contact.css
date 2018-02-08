@@ -1,3 +1,7 @@
+body{
+  background: rgba(59,67,71,1);
+}
+
 h2{
   font-family: "Hype";
 }
@@ -32,14 +36,21 @@ box-shadow: inset -4px -58px 75px -76px rgba(0,0,0,1);
   text-align: center;
   color: black;
   padding: 100px 0px;
-  background-color: #F1F1F1;
+  background: rgba(59,67,71,1);
+  background: -moz-radial-gradient(center, ellipse cover, rgba(59,67,71,1) 0%, rgba(49,59,64,1) 38%, rgba(35,46,56,1) 100%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(59,67,71,1)), color-stop(38%, rgba(49,59,64,1)), color-stop(100%, rgba(35,46,56,1)));
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(59,67,71,1) 0%, rgba(49,59,64,1) 38%, rgba(35,46,56,1) 100%);
+  background: -o-radial-gradient(center, ellipse cover, rgba(59,67,71,1) 0%, rgba(49,59,64,1) 38%, rgba(35,46,56,1) 100%);
+  background: -ms-radial-gradient(center, ellipse cover, rgba(59,67,71,1) 0%, rgba(49,59,64,1) 38%, rgba(35,46,56,1) 100%);
+  background: radial-gradient(ellipse at center, rgba(59,67,71,1) 0%, rgba(49,59,64,1) 38%, rgba(35,46,56,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b4347', endColorstr='#232e38', GradientType=1 );
   -webkit-box-shadow: inset -4px -58px 75px -76px rgba(0,0,0,1);
   -moz-box-shadow: inset -4px -58px 75px -76px rgba(0,0,0,1);
   box-shadow: inset -4px -58px 75px -76px rgba(0,0,0,1);
 }
 
 #supporters h2{
-  color: #393939;
+  color: #FFF;
   padding-bottom: 50px;
 }
 
@@ -88,7 +99,8 @@ box-shadow: inset -4px -58px 75px -76px rgba(0,0,0,1);
 }
 
 #social-media{
-  background-color: #FCFEFF;
+  background: #F8F8F8;
+
   -webkit-box-shadow: inset -4px -58px 75px -76px rgba(0,0,0,1);
   -moz-box-shadow: inset -4px -58px 75px -76px rgba(0,0,0,1);
   box-shadow: inset -4px -58px 75px -76px rgba(0,0,0,1);
@@ -292,9 +304,6 @@ img[alt="Embed Social Media Feeds on your website with Juicer!"]{
 }
 
 @media only screen and (max-width:575.98px){
-  .container{
-    padding: 0;
-  }
 
   .owl-item.active.center img{
     filter: grayscale(0%) saturate(200%) !important;

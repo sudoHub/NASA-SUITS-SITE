@@ -172,7 +172,7 @@ h1{
     transition-duration: .26s;
   }
 
-  .navbar-nav a[href="index.html"]{
+  .navbar-nav a[href="http://www.rccsuits.com"]{
     display: none;
   }
 
@@ -181,9 +181,9 @@ h1{
     text-align: center;
     transition: 1.2s;
     background-color: rgba(0,0,0,.66);
-    -webkit-box-shadow: -2px 5px 66px 11px rgba(0,0,0,0.7);
-    -moz-box-shadow: -2px 5px 66px 11px rgba(0,0,0,0.7);
-    box-shadow: -2px 5px 66px 11px rgba(0,0,0,0.7);
+    -webkit-box-shadow: -2px 5px 46px 11px rgba(0,0,0,0.4);
+    -moz-box-shadow: -2px 5px 46px 11px rgba(0,0,0,0.4);
+    box-shadow: -2px 5px 46px 11px rgba(0,0,0,0.4);
   }
 
   .nav-item{

@@ -8,3 +8,4 @@ To-do:
 	- [x] Photos of members
 - [x] Contact Page
 	- [x] Logos/links of sponsors/supporters
+- [ ] Final Revisions

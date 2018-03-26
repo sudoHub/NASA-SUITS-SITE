@@ -3,7 +3,7 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
-    <title>Aether</title>
+    <title>Social</title>
     <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -11,9 +11,9 @@
     <link rel="stylesheet" href="assets/css/fa-solid.min.css">
     <link rel="stylesheet" href="assets/css/fa-brands.min.css">
     <link rel="stylesheet" href="assets/css/master.css">
+    <link rel="stylesheet" href="assets/css/social.css">
   </head>
   <body>
-
     <nav class="navbar fixed-top navbar-expand-md">
       <div class="navbar-brand"><a class="home-link" href="http://www.rccsuits.com">AETHER</a></div>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,38 +25,34 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav navbar-center">
-          <a class="nav-item nav-link active" href="http://www.rccsuits.com">Home</a>
+          <a class="nav-item nav-link" href="http://www.rccsuits.com">Home</a>
           <a class="nav-item nav-link" href="http://www.rccsuits.com/about">About</a>
           <a class="nav-item nav-link" href="http://www.rccsuits.com/mission">Mission</a>
           <a class="nav-item nav-link" href="http://www.rccsuits.com/members">Members</a>
-          <a class="nav-item nav-link" href="http://www.rccsuits.com/social">Social</a>
+          <a class="nav-item nav-link active" href="http://www.rccsuits.com/social">Social</a>
           <a class="nav-item nav-link" href="http://www.rccsuits.com/contact">Contact</a>
         </div>
       </div>
     </nav>
 
-    <div id="page-content">
-      <div id="main-contain">
-        <div class="jumbotron team-title">
-          <h1><span id="AETHER">AETHER</span></h1>
-          <p class="lead">We're designing the next generation of user interfaces for space missions.</p>
-            <a class="btn btn-primary btn-lg" id="learn-more" href="http://www.rccsuits.com/about" role="button">Learn More <i class="btn-icon fa fa-space-shuttle" aria-hidden="true"></i></a>
+    <div id="social-media">
+      <div id="social" class="container">
+        <h2>Follow Us on Social Media</h2>
+        <div class="row align-items-center">
+          <div class="col" id="instagram"><a href="https://www.instagram.com/rccsuits/"><img class="social-media" src="assets/images/instagram.png" alt="instagram"></a></div>
+          <div class="col" id="twitter"><a href="https://twitter.com/rcc_suits"><img class="social-media" src="assets/images/twitter.png" alt="twitter"></a></div>
         </div>
       </div>
     </div>
 
-    <ul class="nav fixed-bottom justify-content-center">
-      <a class="social-link" href="https://www.instagram.com/rccsuits/"><i class="fab fa-instagram"></i></a>
-      <a class="social-link" href="https://twitter.com/rcc_suits"><i class="fab fa-twitter"></i></a>
-    </ul>
-
-    <video autoplay loop id="video-background" muted plays-inline>
-      <source src="assets/background-video/video.mov" type="video/mp4">
-    </video>
+    <div id="curator-feed">
+      <h2>Social Feed</h2>
+    </div>
 
     <script src="assets/js/jquery-3.3.1.min.js"></script>
     <script src="assets/js/popper.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/menu-icon.js"></script>
+    <script src="assets/js/curator.js"></script>
   </body>
 </html>

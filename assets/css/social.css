@@ -1,0 +1,209 @@
+h2{
+    font-family: "Hype";
+}
+
+#social-media{
+  background: #F8F8F8;
+
+  -webkit-box-shadow: inset -4px -58px 75px -76px rgba(0,0,0,1);
+  -moz-box-shadow: inset -4px -58px 75px -76px rgba(0,0,0,1);
+  box-shadow: inset -4px -58px 75px -76px rgba(0,0,0,1);
+}
+
+#social{
+  text-align: center;
+  padding: 110px;
+}
+
+#social h2{
+  color: #393939;
+  margin-bottom: 40px;
+}
+
+.row{
+  height: auto;
+  margin: 0;
+}
+
+.col{
+  padding: 0;
+  margin: 0;
+}
+
+.social-media{
+  width: 150px;
+  height: 150px;
+  margin: 30px;
+  transition: .26s;
+}
+
+.social-media:hover{
+  transition: .26s;
+  filter: saturate(120%) drop-shadow(5px 5px 7.5px rgba(0,0,0,0.27));
+  margin-top: 25px;
+  margin-right: 25px;
+}
+
+
+#curator-feed{
+  background-image: url(css-bg/earth_blur.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 30px 15%;
+}
+
+#curator-feed h2{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.crt-post-v2 .crt-post-content-text a:hover{
+  color: #F68E09 !important;
+  text-decoration: none !important;
+}
+
+.crt-post .crt-post-footer a, .crt-post .crt-date{
+    color: #FFF !important;
+}
+
+.crt-post-v2 .crt-post-c{
+  background-color: rgba(0,0,0,0) !important;
+}
+
+.crt-post-v2 .crt-post-c{
+  border-radius: 5px;
+  -webkit-box-shadow: 25px 21px 95px -24px rgba(0,0,0,0.66);
+  -moz-box-shadow: 25px 21px 95px -24px rgba(0,0,0,0.66);
+  box-shadow: 25px 21px 95px -24px rgba(0,0,0,0.66);
+  margin: 30px;
+  margin-top: 60px;
+}
+
+.crt-post-v2 .crt-post-border{
+    border: none !important;
+}
+
+.crt-popup-wrapper .crt-popup{
+  -webkit-box-shadow: 25px 21px 95px -24px rgba(0,0,0,1);
+  -moz-box-shadow: 25px 21px 95px -24px rgba(0,0,0,1);
+  box-shadow: 25px 21px 95px -24px rgba(0,0,0,1);
+}
+
+.crt-post-footer{
+  color: #FFF !important;
+  background-color: rgba(0,0,0,.66) !important;
+  border: none !important;
+}
+
+i.crt-icon-twitter, i.crt-icon-facebook, i.crt-icon-instagram{
+  color: #FFF !important;
+}
+
+.crt-post .crt-post-content{
+  color: #FFF !important;
+  background-color: rgba(0,0,0,.5) !important;
+}
+
+.crt-post .crt-post-content-text{
+  color: #FFF !important;
+}
+.crt-post-fullname a{
+  color: #FFF !important;
+}
+
+.crt-popup-wrapper .crt-popup a{
+    transition: .2s;
+}
+
+.crt-popup-wrapper .crt-popup a:hover {
+  color: #FF5722 !important;
+  transition: .2s;
+}
+
+img[alt="Embed Social Media Feeds on your website with Juicer!"]{
+  display: none !important;
+}
+
+.crt-popup{
+  background: none !important;
+}
+
+.crt-popup-wrapper .crt-popup .crt-popup-header{
+  border: none !important;
+      color: #FFF !important;
+}
+
+.crt-popup-wrapper .crt-popup .crt-popup-left{
+    background: none !important;
+    color: #FFF !important;
+}
+
+.crt-popup-wrapper .crt-popup .crt-popup-footer{
+  background: none !important;
+  color: #FFF !important;
+  border: none !important;
+}
+
+.crt-popup-wrapper .crt-popup .crt-popup-right{
+    color: #FFF !important;
+}
+
+.crt-popup-wrapper .crt-popup{
+    background: none !important;
+
+}
+.crt-popup-right{
+    background-color: rgba(0,0,0,.6) !important;
+    border-radius: 5px;
+}
+
+.crt-popup-wrapper .crt-popup .crt-popup-right .crt-popup-text::-webkit-scrollbar-track{
+    background: none !important;
+}
+
+.crt-popup-text-body a{
+    color: #ff5722 !important;
+}
+
+.crt-popup-text-body a:hover{
+  color: #FFF !important;
+  text-decoration: none !important;
+}
+
+.crt-icon-cancel{
+  color: #fff !important;
+}
+
+.crt-icon-cancel:hover{
+    color: #ff5722 !important;
+}
+
+.crt-popup-wrapper .crt-popup .crt-popup-right a{
+  color: #ff5722 !important;
+}
+
+.crt-popup-wrapper .crt-popup .crt-popup-right a:hover{
+  color: #F68E09 !important;
+}
+
+@media only screen and (max-width: 767.98px){
+  #social{
+    padding: 70px 10px;
+    padding-top: 100px;
+  }
+
+  .social-media{
+    width: 110px;
+    height: 110px;
+  }
+
+  #curator-feed{
+      padding: 0px;
+      padding-top: 10px;
+  }
+  .crt-post-v2 .crt-post-c{
+    margin: 10px;
+    margin-top: 30px;
+  }
+}

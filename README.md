@@ -9,6 +9,6 @@ To-do:
 - [x] About Page
 - [x] Mission Page
 - [x] Members Page
-	- [ ] Photos of members
+	- [x] Photos of members
 - [x] Contact Page
 	- [x] Logos/links of sponsors/supporters
